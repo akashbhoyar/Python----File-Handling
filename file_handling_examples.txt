@@ -42,6 +42,9 @@ with open(path) as file1:
         if j[0] in 'aeiouAEIOU':
             d[j[0]] = [j, f'{lst.count(j)} times']
     print(d)
+
+Output -- {'u': ['universe', '2 times'], 'i': ['is', '3 times'], 
+           'e':['easy', '1 times']}
 =======================================================================================
 4) create a dictionary first letter with that word
    ex = {'h':['hello''hai'],'w':['world','world'].....}
@@ -62,6 +65,9 @@ with open(path) as file1:
                     d[j[0]].append(j)
     print(d)
 
+Output -- {'h': ['hello'], 'w': ['world', 'welcome'], 'u': ['universe'], 
+           't': ['to'], 'p': ['python', 'programming'], 'i': ['in', 'is'], 
+           'f': ['fun'], 'j': ['java'], 'e': ['easy']}
 =======================================================================================
 5) Based on the user input print that perticular line
    example if user input 3 then you need to print 3rd line
@@ -73,4 +79,6 @@ with open(path) as file1:
         if num == line_no:
             print(line)
 
+Output -- input enter the value : 3
+	    hello world 
 =======================================================================================
